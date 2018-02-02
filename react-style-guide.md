@@ -21,6 +21,11 @@
 <h3>jsx</h3>
 <p>jsx 中的规范主要是一些代码风格上的统一<p>
 
+* DOM 中属性的值是字符串时，使用双引号（"）
+```javascript
+<Loading className="loading"/>
+```
+
 * [建议]没有子元素的标签使用自闭合的语法。最后的反斜杠与前面有一个空格
 
 ```javascript
